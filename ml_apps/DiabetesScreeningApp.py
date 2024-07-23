@@ -4,7 +4,7 @@ import pickle
 st.title("Diabetes Screening App")
 
 def load_model():
-    return pickle.load(open("diabetes_screening_model.pkl", "rb"))
+    return pickle.load(open("ml_apps/diabetes_screening_model.pkl", "rb"))
 
 
 check = st.checkbox("Load Model")
