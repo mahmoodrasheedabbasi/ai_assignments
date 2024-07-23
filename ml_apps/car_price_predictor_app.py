@@ -17,8 +17,8 @@ if check:
     model = load_model()
     st.warning("Model Loaded Successfully")
     
-    df_clean = pd.read_csv("cleaned_car_data.csv")
-    df_preprocess = pd.read_csv("preprocessed_car_data.csv")
+    df_clean = pd.read_csv("ml_apps/cleaned_car_data.csv")
+    df_preprocess = pd.read_csv("ml_apps/preprocessed_car_data.csv")
 
     company_list = df_clean["company"].unique().tolist()
 
