@@ -6,7 +6,7 @@ st.title("Car Price Predictor")
 
 
 def load_model():
-    model = pickle.load(open('car_price_predictor.pkl', 'rb'))
+    model = pickle.load(open('ml_apps/car_price_predictor.pkl', 'rb'))
     return model
 
 
